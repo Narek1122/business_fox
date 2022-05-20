@@ -1,0 +1,166 @@
+[13-May-2022 08:53:35 UTC] PHP Fatal error:  Uncaught ErrorException: include(/home/hagoponlinemovie/public_html/vendor/composer/../nunomaduro/collision/src/SolutionsRepositories/NullSolutionsRepository.php): Failed to open stream: No such file or directory in /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php:571
+Stack trace:
+#0 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php(571): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php(571): include('/home/hagoponli...')
+#3 /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#4 /home/hagoponlinemovie/public_html/vendor/nunomaduro/collision/src/Adapters/Laravel/CollisionServiceProvider.php(55): Composer\Autoload\ClassLoader->loadClass()
+#5 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): NunoMaduro\Collision\Adapters\Laravel\CollisionServiceProvider->NunoMaduro\Collision\Adapters\Laravel\{closure}()
+#6 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#7 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#8 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#9 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#10 /home/hagoponlinemovie/public_html/vendor/nunomaduro/collision/src/Adapters/Laravel/ExceptionHandler.php(66): Illuminate\Foundation\Application->make()
+#11 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(209): NunoMaduro\Collision\Adapters\Laravel\ExceptionHandler->renderForConsole()
+#12 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(195): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole()
+#13 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#15 {main}
+  thrown in /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php on line 571
+[13-May-2022 08:53:35 UTC] PHP Fatal error:  Uncaught ErrorException: include(/home/hagoponlinemovie/public_html/vendor/composer/../symfony/error-handler/Error/FatalError.php): Failed to open stream: No such file or directory in /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php:571
+Stack trace:
+#0 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php(571): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php(571): include('/home/hagoponli...')
+#3 /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#4 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(244): Composer\Autoload\ClassLoader->loadClass()
+#5 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(231): Illuminate\Foundation\Bootstrap\HandleExceptions->fatalErrorFromPhpError()
+#6 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php on line 571
+[13-May-2022 08:53:35 UTC] PHP Fatal error:  Uncaught ErrorException: include(/home/hagoponlinemovie/public_html/vendor/composer/../symfony/http-foundation/Response.php): Failed to open stream: No such file or directory in /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php:571
+Stack trace:
+#0 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php(571): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php(571): include('/home/hagoponli...')
+#3 /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#4 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(550): Composer\Autoload\ClassLoader->loadClass()
+#5 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(530): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse()
+#6 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(444): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#7 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(364): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#8 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(220): Illuminate\Foundation\Exceptions\Handler->render()
+#9 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(197): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#10 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#11 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#12 {main}
+  thrown in /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php on line 571
+[13-May-2022 08:53:41 UTC] PHP Warning:  require(/home/hagoponlinemovie/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/hagoponlinemovie/public_html/public/index.php on line 34
+[13-May-2022 08:53:41 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/hagoponlinemovie/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hagoponlinemovie/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/hagoponlinemovie/public_html/public/index.php on line 34
+[13-May-2022 08:53:42 UTC] PHP Warning:  require(/home/hagoponlinemovie/public_html/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home/hagoponlinemovie/public_html/public/index.php on line 34
+[13-May-2022 08:53:42 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/hagoponlinemovie/public_html/public/../vendor/autoload.php' (include_path='.:/opt/alt/php81/usr/share/pear:/opt/alt/php81/usr/share/php:/usr/share/pear:/usr/share/php') in /home/hagoponlinemovie/public_html/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/hagoponlinemovie/public_html/public/index.php on line 34
+[13-May-2022 09:30:00 UTC] PHP Fatal error:  Uncaught ErrorException: include(/home/hagoponlinemovie/public_html/vendor/composer/../nunomaduro/collision/src/SolutionsRepositories/NullSolutionsRepository.php): Failed to open stream: No such file or directory in /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php:571
+Stack trace:
+#0 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php(571): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php(571): include('/home/hagoponli...')
+#3 /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#4 /home/hagoponlinemovie/public_html/vendor/nunomaduro/collision/src/Adapters/Laravel/CollisionServiceProvider.php(55): Composer\Autoload\ClassLoader->loadClass()
+#5 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): NunoMaduro\Collision\Adapters\Laravel\CollisionServiceProvider->NunoMaduro\Collision\Adapters\Laravel\{closure}()
+#6 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#7 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#8 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#9 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#10 /home/hagoponlinemovie/public_html/vendor/nunomaduro/collision/src/Adapters/Laravel/ExceptionHandler.php(66): Illuminate\Foundation\Application->make()
+#11 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(209): NunoMaduro\Collision\Adapters\Laravel\ExceptionHandler->renderForConsole()
+#12 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(195): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole()
+#13 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#15 {main}
+  thrown in /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php on line 571
+[13-May-2022 09:30:00 UTC] PHP Fatal error:  Uncaught ErrorException: include(/home/hagoponlinemovie/public_html/vendor/composer/../symfony/error-handler/Error/FatalError.php): Failed to open stream: No such file or directory in /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php:571
+Stack trace:
+#0 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php(571): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php(571): include('/home/hagoponli...')
+#3 /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#4 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(244): Composer\Autoload\ClassLoader->loadClass()
+#5 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(231): Illuminate\Foundation\Bootstrap\HandleExceptions->fatalErrorFromPhpError()
+#6 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php on line 571
+[13-May-2022 09:30:00 UTC] PHP Fatal error:  Uncaught ErrorException: include(/home/hagoponlinemovie/public_html/vendor/composer/../symfony/http-foundation/Response.php): Failed to open stream: No such file or directory in /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php:571
+Stack trace:
+#0 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php(571): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php(571): include('/home/hagoponli...')
+#3 /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#4 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(550): Composer\Autoload\ClassLoader->loadClass()
+#5 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(530): Illuminate\Foundation\Exceptions\Handler->convertExceptionToResponse()
+#6 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(444): Illuminate\Foundation\Exceptions\Handler->prepareResponse()
+#7 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(364): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse()
+#8 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(220): Illuminate\Foundation\Exceptions\Handler->render()
+#9 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(197): Illuminate\Foundation\Bootstrap\HandleExceptions->renderHttpResponse()
+#10 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#11 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#12 {main}
+  thrown in /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php on line 571
+[13-May-2022 09:53:25 UTC] PHP Fatal error:  Uncaught ErrorException: include(/home/hagoponlinemovie/public_html/vendor/composer/../nunomaduro/collision/src/SolutionsRepositories/NullSolutionsRepository.php): Failed to open stream: No such file or directory in /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php:571
+Stack trace:
+#0 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php(571): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php(571): include('/home/hagoponli...')
+#3 /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#4 /home/hagoponlinemovie/public_html/vendor/nunomaduro/collision/src/Adapters/Laravel/CollisionServiceProvider.php(55): Composer\Autoload\ClassLoader->loadClass()
+#5 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): NunoMaduro\Collision\Adapters\Laravel\CollisionServiceProvider->NunoMaduro\Collision\Adapters\Laravel\{closure}()
+#6 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#7 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#8 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#9 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#10 /home/hagoponlinemovie/public_html/vendor/nunomaduro/collision/src/Adapters/Laravel/ExceptionHandler.php(66): Illuminate\Foundation\Application->make()
+#11 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(209): NunoMaduro\Collision\Adapters\Laravel\ExceptionHandler->renderForConsole()
+#12 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(195): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole()
+#13 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#15 {main}
+  thrown in /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php on line 571
+[13-May-2022 09:53:25 UTC] PHP Fatal error:  Uncaught ErrorException: include(/home/hagoponlinemovie/public_html/vendor/composer/../symfony/error-handler/Error/FatalError.php): Failed to open stream: No such file or directory in /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php:571
+Stack trace:
+#0 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php(571): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php(571): include('/home/hagoponli...')
+#3 /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#4 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(244): Composer\Autoload\ClassLoader->loadClass()
+#5 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(231): Illuminate\Foundation\Bootstrap\HandleExceptions->fatalErrorFromPhpError()
+#6 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php on line 571
+[13-May-2022 11:11:22 UTC] PHP Fatal error:  Uncaught ErrorException: include(/home/hagoponlinemovie/public_html/vendor/composer/../nunomaduro/collision/src/SolutionsRepositories/NullSolutionsRepository.php): Failed to open stream: No such file or directory in /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php:571
+Stack trace:
+#0 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php(571): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php(571): include('/home/hagoponli...')
+#3 /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#4 /home/hagoponlinemovie/public_html/vendor/nunomaduro/collision/src/Adapters/Laravel/CollisionServiceProvider.php(55): Composer\Autoload\ClassLoader->loadClass()
+#5 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(871): NunoMaduro\Collision\Adapters\Laravel\CollisionServiceProvider->NunoMaduro\Collision\Adapters\Laravel\{closure}()
+#6 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\Container\Container->build()
+#7 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(855): Illuminate\Container\Container->resolve()
+#8 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\Foundation\Application->resolve()
+#9 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(840): Illuminate\Container\Container->make()
+#10 /home/hagoponlinemovie/public_html/vendor/nunomaduro/collision/src/Adapters/Laravel/ExceptionHandler.php(66): Illuminate\Foundation\Application->make()
+#11 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(209): NunoMaduro\Collision\Adapters\Laravel\ExceptionHandler->renderForConsole()
+#12 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(195): Illuminate\Foundation\Bootstrap\HandleExceptions->renderForConsole()
+#13 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleException()
+#14 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#15 {main}
+  thrown in /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php on line 571
+[13-May-2022 11:11:22 UTC] PHP Fatal error:  Uncaught ErrorException: include(/home/hagoponlinemovie/public_html/vendor/composer/../symfony/error-handler/Error/FatalError.php): Failed to open stream: No such file or directory in /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php:571
+Stack trace:
+#0 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError()
+#1 /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php(571): Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#2 /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php(571): include('/home/hagoponli...')
+#3 /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php(428): Composer\Autoload\includeFile()
+#4 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(244): Composer\Autoload\ClassLoader->loadClass()
+#5 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(231): Illuminate\Foundation\Bootstrap\HandleExceptions->fatalErrorFromPhpError()
+#6 /home/hagoponlinemovie/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(255): Illuminate\Foundation\Bootstrap\HandleExceptions->handleShutdown()
+#7 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->Illuminate\Foundation\Bootstrap\{closure}()
+#8 {main}
+  thrown in /home/hagoponlinemovie/public_html/vendor/composer/ClassLoader.php on line 571
